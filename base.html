@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+    <head>
+        <link type="text/css" rel="stylesheet" href="base.css" />
+        <link type="text/css" rel="stylesheet" href="mainnews.css" />
+        <title>LameStar - A Parody</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header class="full-header">
+            <table>
+                <tr>
+                  <th class="lame"> 
+                        Lame Star - A Parody Weboldal
+                  </th>
+                  <th>
+                        <nav class="navig">
+                            <ul class="menu">
+                                <li class="active">
+                                    <a href="./base.html">Főoldal</a>
+                                </li>
+                                <li>
+                                    <a href="./news.html">Hírek</a>
+                                </li>
+                                <li>
+                                    <a href="./gametest.html">Játék Tesztek</a>
+                                </li>
+                                <li>
+                                    <a href="./hwtest.html">Hardware Tesztek</a>
+                                </li>
+                                <li>
+                                    <a href="./contact.html">Kapcsolat</a>
+                                </li>
+                            </ul>
+                        </nav>
+                  </th>
+                  <th>
+                    <a href="./login.html"><img class="icon" src="login.svg" alt="Login"></a>
+                  </th>
+                </tr>
+              </table>
+        </header>
+        <div class="content">
+            <div class="news" >
+                <div class="mainnews">
+                </div>
+                <div class="secunder">
+                    <div class="secundernews">
+    
+                    </div>
+                    <div class="secundernews">
+    
+                    </div>
+                </div>
+            </div>
+            <div class="othernews">
+                &emsp; &emsp; További híreink
+            </div>
+            <div class="newscontent">
+                
+            </div>
+        </div>
+    </body>
+    <footer class="footer">
+
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+        </script>
+</html>

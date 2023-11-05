@@ -1,0 +1,122 @@
+body {
+    padding: 0px;
+    border: 0px;
+    margin: 0%;
+    background: #eeeeee;
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  .full-header {
+    width: 100%;
+    height: 80px;
+    background: #2f2f2f;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    
+    border-bottom: 5px solid #007ab5;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .lame {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  
+  .full-header .navig {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    opacity: 0.85;
+    
+  }
+  
+  .full-header table {
+    width: 100%;
+    border-spacing: 0px;
+    height: 80px;
+    text-align: center;
+  }
+  
+  .full-header table th {
+    padding: 0;
+  }
+  
+  .full-header .navig .menu {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .full-header .navig .menu li {
+    list-style: none;
+    float: left;
+    display: block;
+  }
+  
+  .full-header .navig .menu li.active {
+    background-color: whitesmoke;
+    color: #2f2f2f;
+  
+  }
+
+  .full-header .navig .menu li a {
+    display: block;
+    height: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px 15px 30px 15px;
+    color: white;
+  }
+  
+  .full-header .navig .menu li.active a {
+    color: #2f2f2f;
+  }
+  .full-header .navig .menu li.active a:hover {
+    color: #2f2f2f;
+  }
+
+  .full-header .navig .menu li a:hover {
+    color: #007ab5;
+  }
+  
+  .icon {
+    height: 76px;
+    width: 76px;
+    opacity: 1;
+    padding: 0px;
+    border: 0px;
+  }
+  .footer {
+    width: 100%;
+    height: 80px;
+    background: #2f2f2f;
+    z-index: 999;
+    bottom: 0;
+    border-top: 5px solid #007ab5;
+    padding: 0px;
+    margin: 0px;
+  }
+  #myBtn{
+    display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 999; 
+  border: none; 
+  outline: none; 
+  background-color: #007ab5; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+  scroll-behavior: smooth;
+  }

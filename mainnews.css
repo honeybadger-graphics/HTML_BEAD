@@ -1,0 +1,75 @@
+.content
+  { 
+   
+    margin-right: 15%;
+    margin-left: 15%;
+    width: auto;
+    background-color: white;
+    padding: 30px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    min-height: 1200px;
+    margin-bottom: 30px;
+    
+  }
+  .content .news
+  {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 600px;
+
+  }
+  .content .news .mainnews
+  {
+    width: 65%;
+    background: greenyellow;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+
+  }
+  .content .news .secunder
+  {
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    z-index: 2;
+    
+  }
+  .content .news .secunder .secundernews
+  {
+    z-index: 3;
+    background: darkgreen;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    
+  }
+  .content .othernews
+  {
+    text-transform: capitalize;
+    color: white;
+    z-index: 4;
+    background:  #007ab5;
+    width: 100%;
+    height: 20px;
+    padding: 10px 0px;
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+    tab-size: 8;
+  }
+  .content .newscontent
+  {
+    display: block;
+    width: 100%;
+    background: red;
+    z-index: 4;
+    min-height: 800px;
+    top: 30px;
+    position: relative;
+    margin-block-end: 30px;
+  }
