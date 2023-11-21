@@ -3,7 +3,7 @@
 <html lang="hu">
     <head>
         <link type="text/css" rel="stylesheet" href="base.css" />
-        <link type="text/css" rel="stylesheet" href="mainnews.css" />
+        <link type="text/css" rel="stylesheet" href="news/mainnews.css" />
         <link type="text/css" rel="stylesheet" href="buttons.css" />
         <title>LameStar - A Parody</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -11,7 +11,6 @@
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <button onclick="acceptFunction()" id="fogadBtn" title="Elfogad">Elfogadom</button>
         <script src="scripts.js" type="text/javascript"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     </head>
     
     <body>
@@ -19,81 +18,97 @@
             <table>
                 <tr>
                   <th class="lame"> 
-                        Lame Star - A Parody Weboldal
+                        LameStar - A Parody Weboldal
                   </th>
                   <th>
                         <nav class="navig">
                             <ul class="menu">
                                 <li class="active">
-                                    <a href="./base.html">Főoldal</a>
+                                    <a href="base.html">Főoldal</a>
                                 </li>
                                 <li>
-                                    <a href="./news.html">Hírek</a>
+                                    <a href="news/news.html">Hírek</a>
                                 </li>
                                 <li>
-                                    <a href="./gametest.html">Játék Tesztek</a>
+                                    <a href="gametest/gametest.html">Játék Tesztek</a>
                                 </li>
                                 <li>
-                                    <a href="./hwtest.html">Hardware Tesztek</a>
+                                    <a href="hwtest/hwtest.html">Hardware Tesztek</a>
                                 </li>
                                 <li>
-                                    <a href="./contact.html">Kapcsolat</a>
+                                    <a href="contact.html">Kapcsolat</a>
                                 </li>
                             </ul>
                         </nav>
                   </th>
                   <th>
-                    <a href="./login.html"><img class="icon" src="login.svg" alt="Login"></a>
+                    <a href="login.html"><img class="icon" src="login.svg" alt="Login"></a>
                   </th>
                 </tr>
               </table>
         </header>
         <div class="content">
             <div class="news" >
-                <a class="newslink" href=""><div class="mainnews">
+                <a class="newslink" href="./gametest/baldursgate.html"><div class="mainnews">
+                    <img style="height: 100%; width: 100%;" src="./gametest/baldursgate.jpg" alt="bg3"> 
+                    <div class="newsHeader" style="font-size: 250%">Baldur's Gate 3<br>Korszakalkotó játék, vagy csak egy újabb AAA játék?</div>
                 </div></a>
                 <div class="secunder">
-                    
-                    <a class="newslink" href=""><div class="secundernews">
-    
+                    <a class="newslink" href="./news/modernwf3.html"><div class="secundernews">
+                        <img style="height: 100%; width: 100%;" src="./news/mw3.jpg" alt="mv3">
+                        <div class="newsHeader" style="font-size: 125%">Call Of Duty Modern Warfare III <br>DLC vagy sem?</div>
+
                     </div></a>
-                    <a class="newslink" href=""><div class="secundernews">
-    
+                    <a class="newslink" href="./hwtest/rtx4090.html"><div class="secundernews">
+                        <img style="height: 100%; width: 100%;" src="./hwtest/4090.jpg" alt="4090">
+                        <div class="newsHeader" style="font-size: 125%">Nvidia RTX 4090 <br>Legerősebb elérhető GPU?</div>
+
                     </div></a>
                 </div>
             </div>
-            <div class="othernews">
-                &emsp; &emsp; További híreink
+            <div class="othernews"><marquee direction="right" behavior ="alternate">&emsp; &emsp; További híreink &emsp; &emsp;</marquee>
+                
             </div>
             <div class="newscontent">
                 <div class="contentscointner">
                 <div class="contents"> 
+                    <a class="newslink" href="/news/cp2077ultimate.html">
+                        <div class="contentimage">
+                            <img style="height: 100%; width: 100%;" src="./news/cp2077ultimate.jpg" alt="cp2077ultimate">
+                        </div>
+                        <div style="top: 0px" class="contentword">//////////</div>
+                        <div style="bottom: 0px" class="contentword">/////////////</div>
+                    </a>
+                </div>
+                <div class="contents"> 
                     <a class="newslink" href="">
-                        <div class="contentimage"></div>
+                        <div class="contentimage">
+                            <img style="height: 100%; width: 100%;" src="./news/cp2077ultimate.jpg" alt="cp2077ultimate">
+                        </div>
                         <div class="contentword"></div>
                     </a>
                 </div>
                 <div class="contents"> 
                     <a class="newslink" href="">
-                        <div class="contentimage"></div>
+                        <div class="contentimage">
+                            <img style="height: 100%; width: 100%;" src="./news/cp2077ultimate.jpg" alt="cp2077ultimate">
+                        </div>
                         <div class="contentword"></div>
                     </a>
                 </div>
                 <div class="contents"> 
                     <a class="newslink" href="">
-                        <div class="contentimage"></div>
-                        <div class="contentword"></div>
+                        <div class="contentimage">
+                            <img style="height: 100%; width: 100%;" src="./news/cp2077ultimate.jpg" alt="cp2077ultimate">
+                        </div>
+                        <div class="contentword">////////</div>
                     </a>
                 </div>
                 <div class="contents"> 
                     <a class="newslink" href="">
-                        <div class="contentimage"></div>
-                        <div class="contentword"></div>
-                    </a>
-                </div>
-                <div class="contents"> 
-                    <a class="newslink" href="">
-                        <div class="contentimage"></div>
+                        <div class="contentimage">
+                            <img style="height: 100%; width: 100%;" src="./news/cp2077ultimate.jpg" alt="cp2077ultimate">
+                        </div>
                         <div class="contentword"></div>
                     </a>
                 </div>

@@ -10,8 +10,7 @@
   }
   .content .news .mainnews
   {
-    width: 65%;
-    background: greenyellow;
+    width: 60%;
     height: 100%;
     z-index: 2;
     position: absolute;
@@ -19,17 +18,29 @@
   }
   .content .news .secunder
   {
-    width: 35%;
+    width: 40%;
     height: 100%;
     position: absolute;
     right: 0px;
     z-index: 2;
     
   }
+  .newsHeader {
+    z-index: 5;
+    position: absolute;
+    bottom: 0px;
+    padding: 15px 0px 15px 0px;
+    font-weight: bold;
+    text-align: justify;
+    width: 100%;
+    font-size: 200%;
+    color: #eeeeee;
+    animation: mymove 10s infinite;
+    background-color: rgba(0, 0, 0, 0.5) ;
+  }
   .content .news .secunder .secundernews
   {
     z-index: 3;
-    background: green;
     width: 100%;
     height: 50%;
     position: relative;
@@ -69,7 +80,6 @@
   }
   .content .newscontent .contentscointner .contents{
     z-index: 6;
-    background: green;
     width: 100%;
     height: 200px;
     position: relative;
@@ -80,4 +90,17 @@
     width: 100%;
     text-decoration: none;
     position: absolute;
+  }
+  .content .newscontent .contentscointner .contents .newslink .contentimage {
+    height: 100%; 
+    width:40%;
+    position: absolute;
+    left: 0px;
+  }
+  .content .newscontent .contentscointner .contents .newslink .contentword {
+    height: 50%; 
+    width:60%;
+    position: absolute;
+    right: 0px;
+    color: black;
   }

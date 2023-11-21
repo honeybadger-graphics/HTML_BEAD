@@ -5,7 +5,7 @@ let parody = document.getElementsByClassName("parody");
             window.onscroll = function() {scrollFunction()};
             
             function scrollFunction() {
-              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
                 mybutton.style.display = "block";
               } else {
                 mybutton.style.display = "none";
@@ -17,8 +17,7 @@ let parody = document.getElementsByClassName("parody");
                 window.scrollTo({top: 0, behavior: 'smooth'});
             }
             window.onload =function() {
-              loadbutton.style.display = "block";
-              //$('body').not("#this").css("filter","blur(3px)");
+              loadbutton.style.display = "block"
             }
             function acceptFunction() {
                 
