@@ -63,8 +63,7 @@
   .content .newscontent
   {
     display: block;
-    width: 100%;
-    background: #eeeeee;
+    width: 70%;
     z-index: 4;
     min-height: 1000px;
     top: 30px;
@@ -88,19 +87,44 @@
     display: block;
     height: 100%;
     width: 100%;
+    left: 0px;
     text-decoration: none;
     position: absolute;
   }
   .content .newscontent .contentscointner .contents .newslink .contentimage {
-    height: 100%; 
+    height: 90%; 
+    top: 5%;
+    bottom: 5%;
     width:40%;
     position: absolute;
     left: 0px;
   }
   .content .newscontent .contentscointner .contents .newslink .contentword {
     height: 50%; 
-    width:60%;
+    width:65%;
     position: absolute;
-    right: 0px;
+    left: 45%;
     color: black;
+    
+  }
+  .content .newscontent .contentscointner aside {
+    position: absolute;
+    top: 0;
+    right: -43%;
+    width: 30%;
+    height: 100%;  
+    background: #eeeeee;
+  }
+  .content .newscontent .contentscointner aside h3 {
+    /* Abs positioning makes it not take up vert space */
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    /* Border is the new background */
+    background: none;
+  
+    /* Rotate from top left corner (not default) */
+    transform-origin: 0 0;
+    transform: rotate(90deg);
   }
