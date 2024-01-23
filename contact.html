@@ -2,6 +2,7 @@
 
 <html lang="hu">
     <head>
+        <script src="jquery-3.3.1.min.js"></script>
         <link type="text/css" rel="stylesheet" href="base.css" />
         <link type="text/css" rel="stylesheet" href="buttons.css" />
         <link type="text/css" rel="stylesheet" href="../news/mainnews.css" />
@@ -10,6 +11,7 @@
         <meta charset="UTF-8">
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <script src="scripts.js" type="text/javascript"></script>
+        
     </head>
     <body>
         <header class="full-header">
@@ -45,7 +47,54 @@
                 </tr>
               </table>
         </header>
-        <div class="content"></div>
+        <div class="content" style="min-height: 660px;">
+            <div class="contactClass">Kapcsolatba szeretne lépni velünk? Vagy esetleg problémája van a weboldallal? <br> Töltse ki az ürlapunkat és igyekszünk mihamarabb válaszolni.</div>
+                <form id="form">
+                        <table class="contactTable">
+                            <tr>
+                                <td>Hogyan szolíthatunk (név/nickname/stb.):</td>
+                                <td>
+                                    <input type="text" id="contactName" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Hol kereshetünk meg (Email) :</td>
+                                <td>
+                                    <input type="text" id="contactEmail" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Miért keresel minket?</td>
+                                <td>
+                                    <select multiple id="indokok">
+                                        <option value="contact">Kapcsolatba lépés szerkeztökkel.</option>
+                                        <option value="error">Hiba a weboldalon.</option>
+                                        <option value="question">Kérdés feltétel.</option>
+                                        <option value="newsletter">Hírlevélre való leiratkozás.</option>
+                                        <option value="Other">Egyéb, a listán nem szereplő indok.</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr id="responseError1">
+                                <td id="responseError2"></td>
+                                <td><input type="date" value="2024-01-22" min="2024-01-01" max="2030-12-31" style="width: 50%;"/></td>
+                            </tr>
+                            <tr style="height: 50px;">
+                                <td>Üzeneted:</td>
+                                <td style="height: 30px;">
+                                    <textarea id="contactMessage" rows="10" form="form" ></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Adatkezelés elfogadása: <input type="checkbox" id="GDPR"></td>
+                                <td>
+                                   <span class="wrapper"> <input type="button" id="validate" value="Küldés" /> </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <div id="response"></div>
+        </div>
         <footer class="footer">
         </footer>
     </body>

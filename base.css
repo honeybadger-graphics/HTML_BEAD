@@ -104,7 +104,6 @@ body {
   }
   .content
   { 
-    height: 100%;
     margin-right: 15%;
     margin-left: 15%;
     width: auto;
@@ -145,4 +144,59 @@ body {
   @keyframes mymove {
     75% {text-shadow: 0px 20px 30px #eeeeee;}
   }
- 
+  .contactTable{
+    width:100%;
+}
+.contactTable tr{
+    height:40px;
+}
+.contactTable td {
+   width: 50%;
+}
+.contactTable input {
+    height: 25px;
+    width: 100%;
+    border:1px solid #ccc;
+    border-radius: 10px;
+}
+.contactTable textarea {
+  width: 100%;
+  border:1px solid #ccc;
+  border-radius: 10px;
+  resize: none;
+  
+}
+.contactTable #responseError1{
+  height:40px; width: 100%;
+}
+.contactTable #responseError2{
+  width: 50%;
+}
+.contactTable select{
+    width:100%;
+    border:1px solid #ccc;
+    border-radius: 10px;
+}
+.contactTable #validate{
+        
+        height:30px;
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 8px 60px;
+        text-align: center;
+        
+        font-size: 12px;
+        margin: 40px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        
+    
+}
+.wrapper{
+    text-align: center;
+}
+.contactClass{
+  text-align: center;
+  font-size: 30px;
+}

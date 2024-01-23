@@ -1,0 +1,87 @@
+.testImage{
+    height: 100%;
+    width:  100%;
+    position: relative;
+}
+.testImages{
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    position: relative;
+    transition: transform 2000ms ease-in-out;
+  transform-origin: center;
+}
+.testImages:hover {
+    transform: scale(1.5);
+}
+.testHead{
+    font-size: 250%;
+    font-weight:bold;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.testHeaders{
+    font-size: 175%;
+    font-weight:bold;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.testContent{
+    font-size: 125%;
+    text-align: justify;
+}
+.review{
+    width: 100%;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.review .reviewTable{
+    position: relative;
+    left: 20%;
+    width: 60%;
+    background-color: #eeeeee;
+    box-shadow: 0 0 8px 0 black;
+}
+.review .reviewTable .thReviewGood{
+    position: relative;
+    color: green;
+    width: 50%;
+    text-align: center;
+    font-size: large;    
+}
+.review .reviewTable .thReviewBad{
+    position: relative;
+    color: red;
+    width: 50%;
+    text-align: center;
+    font-size: large;
+}
+.review .reviewTable .tdReviewGood{
+    position: relative;
+    color: green;
+    width: 50%;
+    font-size: large;    
+}
+.review .reviewTable .tdReviewBad{
+    position: relative;
+    color: red;
+    width: 50%;
+    font-size: large;
+}
+.review .reviewScore{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    font-size: larger;
+    text-align: center;
+    background-color: #eeeeee;
+    box-shadow: 0 0 8px 0 black;
+}
+@keyframes scale {
+    to {
+      transform: scale(1.2);
+    }
+  }
