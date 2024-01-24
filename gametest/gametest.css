@@ -8,7 +8,7 @@
     height: 50%;
     left: 25%;
     position: relative;
-    transition: transform 2000ms ease-in-out;
+   transition: transform 2000ms ease-in-out;
   transform-origin: center;
 }
 .testImages:hover {
@@ -80,8 +80,3 @@
     background-color: #eeeeee;
     box-shadow: 0 0 8px 0 black;
 }
-@keyframes scale {
-    to {
-      transform: scale(1.2);
-    }
-  }
